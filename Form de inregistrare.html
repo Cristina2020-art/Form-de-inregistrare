@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Form de inregistrare</title>
+</head>
+<body>
+<form method=post>
+<h2 align = center><font color = red face="Blackadder ITC" size = 7>Form de inregistrare</font></h2>
+Introduceti numele de utilizator <input type=text name=uname size=100 maxlength=7 placeholder="">
+<br>
+Introduceti parola <input type = password name=pwd>
+<br>
+Genul
+<input type = radio name=gender checked> Barbat
+<input type = radio name=gender> Femeie
+<br>
+Hobbiuri
+<br>
+<input type = checkbox name=invat>Citit carti
+<br>
+<input type = checkbox name=calatoresc checked>Calatorii
+<br>
+<input type = checkbox name=act>Invatat IT
+<br>
+Data de nastere<input type = date name = dob>
+<br>
+Locul nasterii
+<br>
+<select name=pob>
+<option></option>
+<option>Turda</option>
+<option selected>Cluj-Napoca</option>
+<option>Timisoara</option>
+<option>Oradea</option>
+</select>
+<br>
+Locul de munca
+<br>
+<select name=pow size=5 multiple>
+<option></option>
+<option>Colegiul Emil Negrutiu din Turda</option>
+<option selected>Liceul tehnologic nr.1 din Cluj-Napoca</option>
+<option>Colegiul tehnic Anghel Saligny din Cluj-Napoca</option>
+</select>
+<br>
+Încărcați PIC <input type = file name=mypic>
+<br>
+Despre tine
+<br>
+<textarea name=abtme rows=10 cols=15></textarea>
+<br>
+Introdu id email<input type = email name=myemail>
+<br>
+Introdu numele Websiteului<input type = url name=myweb>
+<br>
+<input type = submit>
+<input type = reset>
+<input type = button value = Print onclick=print()>
+</form>
+</body>
+</html>
